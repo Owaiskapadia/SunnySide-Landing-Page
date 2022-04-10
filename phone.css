@@ -1,0 +1,118 @@
+@media  screen and (max-width:1000px) {
+    .grid1{
+display: flex;
+flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+
+    }
+    .navbar img{
+        margin: auto;
+    }
+    .nav{
+        width: 100%;
+        display: none;
+        
+    }
+    
+.learn-more{
+    margin: 0 auto;
+}
+    .sec1 h2{
+        font-size: 24px;
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 150px;
+    }
+    .offwhite{
+     height: 60vh;
+    }
+    .offwhite h1{
+        font-size: 24px;
+    }
+    .offwhite div{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+
+
+    }
+    #item1{
+        order: 2;
+    }
+    #item2 {
+        order: 1;
+        width: 100%;
+        background: url('mobile/image-transform.jpg') no-repeat center center/cover;
+        height: 60vh;
+    }
+    #item3 {
+        order: 3;
+        width: 100%;
+        
+        background: url("mobile/image-stand-out.jpg") no-repeat center center/cover;
+        height: 60vh;
+    }
+    #item4{
+        order: 4
+    }
+    
+    
+    #item5{
+        order: 5;
+        width: 100%;
+        height: 60vh;
+        background: url("mobile/image-graphic-design.jpg") no-repeat center center/cover;
+    }
+    #item5 h2{ 
+        padding-bottom: 3px;
+    }
+    #item5 p{
+        padding-bottom: 3px;
+    }
+    #item6 h2{ 
+        padding-bottom: 3px;
+    }
+    #item6 p{
+        padding-bottom: 3px;
+    }
+    #item6{
+        order: 6;
+        width: 100%;
+        height: 60vh;
+        background: url("desktop/image-photography.jpg") no-repeat center center/cover;
+    }
+    .testimony{
+        flex-direction: column;
+        height: 100%;
+    }
+    .testimonial{
+height: fit-content;
+    }
+    .test{
+width: 100%;
+    }
+.testimonial h2{
+    font-size: 12px;
+    padding-top: 70px;
+}
+
+.navu {
+    flex-direction: column;
+}
+.icons{
+    padding-top: 10px;
+}
+.bottom img{
+    padding-bottom: 2px;
+}
+.snapshots{
+    grid-template-columns: 2fr 2fr;
+}
+#item5 div{
+    width: 90%;
+}
+#item6 div{
+    width: 90%;
+}
